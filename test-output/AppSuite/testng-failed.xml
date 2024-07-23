@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppSuite]">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.maveric.git.test.LoginTest">
+        <methods>
+          <include name="setSubTestEnv"/>
+          <include name="test1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.maveric.git.test.LoginTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [AppSuite] -->
